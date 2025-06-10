@@ -54,7 +54,11 @@ class Fortune {
             System.out.println("The fortune you seek is in another cookie.");
 
         } else {
+<<<<<<< HEAD
             System.out.println("Error: unexpected fortune value!");
+=======
+            System.out.println("Error: Unexpected fortune value!");
+>>>>>>> refs/remotes/origin/main
         }
 
     }
