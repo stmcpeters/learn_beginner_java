@@ -8,18 +8,18 @@ class Fortune {
 
     }
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
 
         Fortune fortuneCookie = new Fortune();
         int fortune = fortuneCookie.generateRandom();
 
-        if (fortune = 0) {
+        if (fortune == 0) {
 
             System.out.println("Flattery will go far tonight.");
 
         } else if (fortune == 1) {
 
-            System.out.println("Don't behave with cold manners.")
+            System.out.println("Don't behave with cold manners.");
 
         } else if (fortune == 2) {
 
@@ -33,7 +33,7 @@ class Fortune {
 
             System.out.println("A conclusion is simply the place where you got tired of thinking.");
 
-        } else if (fortune ==) {
+        } else if (fortune == 5) {
 
             System.out.println("No snowflake feels responsible in an avalanche.");
 
@@ -49,10 +49,12 @@ class Fortune {
 
             System.out.println("You will live long enough to open many fortune cookies.");
 
-        } else if (fortune == 9 {
+        } else if (fortune == 9) {
 
             System.out.println("The fortune you seek is in another cookie.");
 
+        } else {
+            System.out.println("Error: unexpected fortune value!");
         }
 
     }
